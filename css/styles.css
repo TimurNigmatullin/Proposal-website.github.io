@@ -11,7 +11,7 @@
 
 body {
     background-color: #f0f0f0;
-    background-image: url(images/leaves-wnt.jpg);
+    background-image: url(/images/leaves-wnt.jpg);
 }
 
 .container-fluid {
@@ -22,7 +22,7 @@ body {
 #header1 {
     position: relative;
     background-color: rgb(174, 174, 174);
-    background-image: url(images/Mountains.jpg);
+    background-image: url(/images/Mountains.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -164,7 +164,7 @@ body {
 
 .text-tile {
     background-color: rgba(254, 254, 108, 0.473);
-    background-image: url(images/postcard.jpg);
+    background-image: url(/images/postcard.jpg);
     background-blend-mode: multiply;
     box-shadow: 0 0 10px #292929;
     position: relative;
@@ -205,7 +205,7 @@ body {
 .proposal-yes {
     position: sticky;
     background-color: rgba(254, 254, 108, 0.473);
-    background-image: url(images/postcard.jpg);
+    background-image: url(/images/postcard.jpg);
     background-blend-mode: multiply;
     box-shadow: 0 0 10px #292929;
     color: rgb(76, 31, 18);
