@@ -47,7 +47,7 @@ body {
     text-shadow: 0 0 100px #fff650c3;
 }
 
-#header2 {
+#ribbon-top {
     background-color: rgb(73, 107, 58);
     background-image: url();
     background-repeat: no-repeat;
@@ -69,9 +69,9 @@ body {
     border-bottom-width: 9px;
 }
 
-        /* BUT it is a Proposal header */
+/****** Bottom Proposal Ribbon *******/
 
-#header3 {
+#ribbon-bottom {
     position: relative;
     background-color: rgb(73, 107, 58);
     color: aliceblue;
@@ -81,7 +81,6 @@ body {
 
 #proposal-container {
     padding: 0;
-
 }
 
 .row {
@@ -214,24 +213,19 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    
     font-size: 3em;
     letter-spacing: 10px;
     font-weight: bold;
-
     margin: 4px 40px;
-    cursor: pointer;
-    transition: 200ms;
-    transition-property: color, box-shadow;
-    
-    cursor:default;
-
+    transition: 300ms;
+    transition-property: color, background-color sbackground-blend-mode;
     z-index: 0;
   }
 
   .proposal-yes:hover {
     color:#7e4127;
-    box-shadow: 0 0 30px #ebcf5f;
+    background-color: #ffffffc3;
+    background-blend-mode: lighten;
   }
 
   .proposal-no {
@@ -244,31 +238,26 @@ body {
     padding: 1px 10px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-        
+    display: inline-block;    
     font-size: 3em;
     letter-spacing: 10px;
     font-weight: bold;
-    
     margin: 4px 40px;
-    cursor: pointer;
-    transition: 200ms;
-    transition-property: color, box-shadow;
-
-    cursor:default;
-
+    transition: 300ms;
+    transition-property: color, background-color sbackground-blend-mode;
     z-index: 0;
 }
 
 .proposal-no:hover {
     color:#7e4127;
-    box-shadow: 0 0 30px #ebcf5f;
+    background-color: #ffffffc3;
+    background-blend-mode: lighten;
   }
 
 
-/*************=** Media queries ****************/
+/********* Media queries **********/
 
-/******** Large devices only ********/
+/******* Large devices only *******/
 
 @media (min-width: 1200px) {
     #header1 {
@@ -277,11 +266,11 @@ body {
         font-size: 5em;
     }
 
-    #header2 {
+    #ribbon-top {
         padding: 40px 40px;
     }
 
-    #header3 {
+    #ribbon-bottom {
         padding: 40px 200px;
     }
     
@@ -290,7 +279,7 @@ body {
     }
 }
 
-/******** Medium devices only ********/
+/******** Medium devices only *******/
 
 @media (min-width: 992px) and (max-width: 1199px) {
    
@@ -299,7 +288,7 @@ body {
         font-size:4em;
     }
 
-    #header2 {
+    #ribbon-top {
         padding: 40px 30px;
         font-size:4em;
         text-align: center;
@@ -332,13 +321,13 @@ body {
         font-size: 3em;
     }
 
-    #header2 {
+    #ribbon-top {
         padding: 40px 40px 40px 40px;
         font-size:3em;
         text-align: center;
     }
 
-    #header3 {
+    #ribbon-bottom {
         padding: 20px 40px;
         font-size:2em;
         text-align: center;
@@ -349,8 +338,7 @@ body {
     }
 
     .proposal-block {
-        padding: 10px;
-        
+        padding: 10px; 
     }
 }
 
@@ -369,14 +357,14 @@ body {
         font-size: 2em;
     }
 
-    #header2 {
+    #ribbon-top {
         padding: 10px 50px;
         font-size: 2em;
         text-align: center;
     }
 
 
-    #header2-text > span {
+    #ribbon-top-text > span {
         line-height: 70px;
     }
 
@@ -389,7 +377,7 @@ body {
         border-bottom-width: 9px;
     }
 
-    #header3 {
+    #ribbon-bottom {
         padding: 20px 50px;
         font-size: 2em;
         text-align: center;
@@ -442,7 +430,7 @@ body {
         letter-spacing: 5px;
     }
 
-    #header2 {
+    #ribbon-top {
         padding: 5px 10px;
         font-size: 2em;
         text-align: center;
@@ -461,7 +449,7 @@ body {
          padding: 10px 0;
     }
 
-    #header3 {
+    #ribbon-bottom {
         padding: 10px 50px;
         font-size: 2em;
         text-align: center;
