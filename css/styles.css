@@ -230,7 +230,7 @@ body {
   }
 
   .proposal-yes:hover {
-    color:#ebcf5f;
+    color:#7e4127;
     box-shadow: 0 0 30px #ebcf5f;
   }
 
@@ -261,7 +261,7 @@ body {
 }
 
 .proposal-no:hover {
-    color:#ebcf5f;
+    color:#7e4127;
     box-shadow: 0 0 30px #ebcf5f;
   }
 
